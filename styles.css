@@ -1,0 +1,60 @@
+body {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: url('https://www.decasacollections.com/wp-content/uploads/2024/01/Modern-kitchen-design.jpg');
+}
+
+
+h1, .header {
+    text-align: center;
+    color: green;
+    font-size: 70px;
+    font-weight: 600;
+    background-color: grey;
+}
+
+.recipe-list {
+    background-color: #ffffff90;
+    padding: 20px;
+}
+
+.recipe-list .recipe-link {
+    padding: 10px;
+    font-size: 25px;
+    margin-left: 50px;
+    margin-right: auto;
+    color: green;
+}
+
+img {
+    width: 250px;
+    height: auto;
+}
+
+.recipe-list .recipe-link:hover {
+    background-color: #f0f0f0;
+}
+
+h2 {
+    background-color: #ffffff85;
+}
+
+p {
+    background-color: #ffffff85;
+    padding: 10px;
+}
+
+ul, ol {
+    background-color: #00000099;
+    color: rgb(157, 58, 58);
+}
+
+li {
+    padding: 10px;
+}
+
+.back {
+    background-color: grey;
+    padding: 15px;
+    font-size: 25px;
+    border-radius: 10px;
+}
