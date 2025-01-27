@@ -1,60 +1,90 @@
 body {
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-image: url('https://www.decasacollections.com/wp-content/uploads/2024/01/Modern-kitchen-design.jpg');
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  background-image: url("https://www.decasacollections.com/wp-content/uploads/2024/01/Modern-kitchen-design.jpg");
+  box-sizing: border-box;
 }
 
-
-h1, .header {
-    text-align: center;
-    color: green;
-    font-size: 70px;
-    font-weight: 600;
-    background-color: grey;
+h1,
+.header {
+  text-align: center;
+  color: #00800090;
+  font-size: 70px;
+  font-weight: 600;
+  background-color: #80808090;
+  padding: 10px;
+  width: 400px;
+  margin: 20px auto;
+  border-radius: 15px;
+  font-style: oblique;
 }
 
 .recipe-list {
-    background-color: #ffffff90;
-    padding: 20px;
+  background-color: #ffffff50;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  list-style: none;
+  width: 300px;
+  margin: 40px auto;
 }
 
 .recipe-list .recipe-link {
-    padding: 10px;
-    font-size: 25px;
-    margin-left: 50px;
-    margin-right: auto;
-    color: green;
+  padding: 10px;
+  font-size: 25px;
+  margin-right: auto;
+  color: green;
 }
 
 img {
-    width: 250px;
-    height: auto;
+  display: block;
+  width: 250px;
+  margin: 30px auto;
 }
 
 .recipe-list .recipe-link:hover {
-    background-color: #f0f0f0;
+  background-color: #f0f0f0;
 }
 
 h2 {
-    background-color: #ffffff85;
+  background-color: #ffffff85;
+  padding: 10px;
+  margin: 15px 35px;
 }
 
 p {
-    background-color: #ffffff85;
-    padding: 10px;
+  background-color: #ffffff85;
+  padding: 10px;
+  margin: 15px 35px;
 }
 
-ul, ol {
-    background-color: #00000099;
-    color: rgb(157, 58, 58);
+ul,
+ol {
+  background-color: #00000098;
+  color: rgb(226, 38, 38);
+  padding: 10px;
+  margin: 15px 35px;
+  border-radius: 15px;
 }
 
 li {
-    padding: 10px;
+  padding: 10px;
+  padding: 10px;
+  margin: 15px 35px;
+  border-radius: 15px;
 }
 
 .back {
-    background-color: grey;
-    padding: 15px;
-    font-size: 25px;
-    border-radius: 10px;
+  background-color: grey;
+  padding: 15px;
+  font-size: 25px;
+  border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: green;
+}
+
+a:hover {
+  color: red;
 }
